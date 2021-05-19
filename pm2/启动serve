@@ -1,0 +1,13 @@
+```shell
+# 启动
+node [command] => pm2 start node -n [run_name] -- [command]
+# 例
+npm run dev => pm2 start npm -n name_dev -- run dev
+# 查看
+pm2 list 
+# 停止
+pm2 stop [run_name]
+# 删除
+pm2 delete id
+```
+

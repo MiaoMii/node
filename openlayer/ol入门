@@ -1,0 +1,66 @@
+#### 安装
+
+`npm i ol`
+#### Map    
+>核心部件Map,被呈现到target容器
+```html
+<div id='map'></div>
+<script> 
+    let map = new ol.Map({target: 'map'})
+</script>
+```
+
+ol.View负责地图的中心点，放大，投影之类的设置
+一个ol.View示例包含投影`projection`，该投影决定中心`center`的坐标系及分辨率单位,
+默认的投影是球墨卡托（EPSG:3857）以米为地图单位
+
+#### zoom  
+> 用来控制地图分辨率
+
+maxZoom 默认值28  
+zommFactor 默认值为2  
+maxResolution 默认由投影在256*256像素瓦片的有效成都计算）
+
+#### source  
+>ol.source.Source获取远程数据图层
+
+三类基本图层  
++ ol.layer.Tile （瓦片）  
++ ol.layer.Image （图片样式图层）
++ ol.layer.Vector （矢量图层）
+
+```javascript
+import VectorSource from 'ol/source/Vector';  //矢量要素来源
+import ImageSource from 'ol/source/Image';	  //图像要素来源	
+import TileSource from 'ol/source/Tile';	  //平铺要素来源
+
+// getFeatures()可以获取源下的要素
+```
+
+##### Feature 矢量文件的要素
+
+```javascript
+import Feature from 'ol/Feature';
+	//如需单独设置feature的样式需要使用setStyle方法，直接在new Feature时写style不生效
+```
+
+##### Layer 图层
+
+```javascript
+import VectorLayer from 'ol/layer/Vector';		//矢量图层
+import ImageLayer from 'ol/layer/Image';		//图像图层
+import TileLayer from 'ol/layer/Tile';			//平铺图层
+
+// getSource()可以获取图层下的源
+```
+
+##### Style 样式
+
+```JavaScript
+import Fill from 'ol/style/Fill';			//填充
+import ImageStyle from 'ol/style/Image';	//图片
+import Stroke from 'ol/style/Stroke';		//边界样式
+import Text from 'ol/style/Text';			//文字样式
+	import Icon from 'ol/style/Icon';			//image的子类，图标
+	import RegularShape from 'ol/style/RegularShape';	//image的子类
+```
