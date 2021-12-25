@@ -69,3 +69,23 @@ console.log('nodeParent scrollTop',nodeParent.scrollTop)
 
 
 ![scrollTop](E:\project\vue-blog-ts\src\assets\note\css\scrollTop.jpeg)
+
+
+
+
+
+#### offsetLeft 距离第一个非static布局元素的距离
+
+```js
+getBoundingClientRect {
+    bottom: 180 		 // 元素下边距离页面上边的距离
+	height: 150
+	left: 30
+	right: 180			/元素右边距离页面左边的距离
+	top: 30
+	width: 150
+	x: 30
+	y: 30
+}
+```
+

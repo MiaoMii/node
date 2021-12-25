@@ -1,0 +1,5 @@
+```css
+background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAINJREFUOE9jZKAQMFKon2EQGdDe3t5AincqKyvB6sFeaG1tFWdhYXlBigEMDAyy5eXlT+Bh0NXVFfr///9VxBjCyMgYVlZWthruApgmYgxB1oxhAEgAnyHomrEagMsQbJpxGoBuCC7NeA2AGfLv378vFRUV23EF7iBKicTEPzY1FHsBAM/GORH/FOdfAAAAAElFTkSuQmCC) no-repeat center;
+transform: rotate(30deg);
+```
+
