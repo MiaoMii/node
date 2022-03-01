@@ -14,3 +14,7 @@
 设置背景色
 
 <table><tr><td bgcolor=yellow>背景色yellow</td></tr></table>
+
+![img](E:\project\vue-blog-ts\src\assets\note\js\img\tupora1.png)
+
+![img](E:\project\vue-blog-ts\src\assets\note\js\img\typora2.png)
