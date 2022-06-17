@@ -35,6 +35,8 @@
 + `<link>`
 + `<script>`
 
+**服务器与服务器之间请求数据并不会存在跨域行为，跨域行为是浏览器安全策略限制**
+
 #### call和apply的区别及作用
 用来改变this指向，apply可以接收一个数组
 
@@ -112,4 +114,4 @@ Object、Boolean、Symbol、Null、Undefined、Number、Bigint
           /* 或者 */
           display: block;
        }
-   ```
+```
