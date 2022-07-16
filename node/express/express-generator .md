@@ -10,3 +10,4 @@ npm install -g express-generato
 express <name>
 ```
 
+#### 3.express使用静态资源
